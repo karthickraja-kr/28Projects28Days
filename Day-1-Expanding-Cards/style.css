@@ -27,7 +27,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   margin: 10px;
-  border-radius: 50px;
+  border-radius: 49px;
   cursor: pointer;
   transition: flex 0.7s ease-in;
 }
