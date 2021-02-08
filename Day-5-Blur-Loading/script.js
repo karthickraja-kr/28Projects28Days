@@ -3,7 +3,9 @@ const loading = document.querySelector(".loading");
 
 let count = 0;
 
-let init = setInterval(load, 30);
+setTimeout(function () {
+  let init = setInterval(load, 30);
+}, 3000);
 
 function load() {
   count++;
