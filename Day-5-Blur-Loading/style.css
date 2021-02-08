@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.bg {
+  background: url("https://www.rwongphoto.com/images/xl/RW8461.jpg") no-repeat
+    center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading {
+  color: #fff;
+  font-size: 40px;
+}
