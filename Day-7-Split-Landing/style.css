@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden;
+}
+
+.split {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease;
+  position: absolute;
+}
+
+.split h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  z-index: 1;
+}
+
+.split button {
+  padding: 1rem;
+  background-color: transparent;
+  border: #fff solid 0.2rem;
+  color: #fff;
+  font-size: 1.5rem;
+  z-index: 1;
+}
+
+.split button:focus {
+  outline: none;
+}
+
+.split.left button:hover {
+  border: rgba(87, 84, 236, 1) solid 0.2rem;
+  background-color: rgba(87, 84, 236, 1);
+}
+
+.split.right button:hover {
+  border: rgba(28, 122, 28, 1) solid 0.2rem;
+  background-color: rgba(28, 122, 28, 1);
+}
+
+.split.left {
+  background-image: url("https://mk0uploadvrcom4bcwhj.kinstacdn.com/wp-content/uploads/2020/06/EaQsP3EUwAA8fOr.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  width: 50%;
+  top: 0;
+  left: 0;
+}
+
+.split.left::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(87, 84, 236, 0.7);
+}
+
+.split.right {
+  background-image: url("https://i.ytimg.com/vi/0tUqIHwHDEc/maxresdefault.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  width: 50%;
+  top: 0;
+  right: 0;
+}
+
+.split.right::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(43, 43, 43, 0.8);
+}
+
+.hover-left .left {
+  width: 75%;
+}
+
+.hover-left .right {
+  width: 25%;
+}
+
+.hover-right .left {
+  width: 25%;
+}
+
+.hover-right .right {
+  width: 75%;
+}
