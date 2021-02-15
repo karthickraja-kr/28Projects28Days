@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  background-color: #242b2e;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-item {
+  background-color: #cad5e2;
+  width: 600px;
+  border: 1px solid #000;
+  margin: 10px auto;
+  padding: 10px 10px 10px 30px;
+  border-radius: 10px;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  position: relative;
+}
+
+.faq-item p {
+  display: none;
+}
+
+.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item.active p {
+  display: block;
+}
+
+.faq-item.active ::before {
+  content: "\f086";
+  font-family: "Font Awesome 5 Free";
+  color: #2ecc71;
+  font-size: 5rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
