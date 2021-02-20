@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+:root {
+  --primary-color: #22254b;
+  --secondary-color: #373b69;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--primary-color);
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+.form {
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--secondary-color);
+  padding: 10px;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+}
+
+.search {
+  background-color: var(--secondary-color);
+  border: 3px solid var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin: 0px 3rem;
+  font-weight: bold;
+}
+
+.search::placeholder {
+  color: #7378c5;
+}
+
+.search:focus {
+  outline: none;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  overflow: hidden;
+  margin-top: 70px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card {
+  background-color: var(--secondary-color);
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 10px;
+  color: #fff;
+}
+
+h3 {
+  margin: 0;
+  letter-spacing: 0.7px;
+}
+
+small {
+  margin: 0;
+  padding: 8px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+small.green {
+  background-color: #1faa59;
+}
+
+small.yellow {
+  background-color: #f4be2c;
+}
+small.red {
+  background-color: tomato;
+}
+
+.overview {
+  padding: 10px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0%;
+  max-height: 100%;
+  transform: translateY(101%);
+  background-color: #fff;
+  transition: transform 0.3s ease-in;
+  border-radius: 5px 5px 0 0;
+}
+
+.card:hover .overview {
+  transform: translateY(0%);
+}
