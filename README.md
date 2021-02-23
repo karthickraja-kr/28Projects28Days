@@ -25,4 +25,4 @@ This is the repository for all of my 50 Projects.
 | 17  | [Movie App](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-17-Movie-App)                       | [Live Demo](https://karthickraja.me/50Projects50Days/Day-17-Movie-App/)            |
 | 18  | [Image Slider](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-18-Image-Slider)                 | [Live Demo](https://karthickraja.me/50Projects50Days/Day-18-Image-Slider/)         |
 | 19  | [Time Clock](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-19-Time-Clock)                     | [Live Demo](https://karthickraja.me/50Projects50Days/Day-19-Time-Clock/)           |
-| 20  | [Button Ripple Effect](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-20-Button-Ripple-Factor) | [Live Demo](https://karthickraja.me/50Projects50Days/Day-20-Button-Ripple-Factor/) |
+| 20  | [Button Ripple Effect](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-20-Button-Ripple-Effect) | [Live Demo](https://karthickraja.me/50Projects50Days/Day-20-Button-Ripple-Effect/) |
