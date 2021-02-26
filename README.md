@@ -27,3 +27,5 @@ This is the repository for all of my 50 Projects.
 | 19  | [Time Clock](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-19-Time-Clock)                     | [Live Demo](https://karthickraja.me/50Projects50Days/Day-19-Time-Clock/)           |
 | 20  | [Button Ripple Effect](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-20-Button-Ripple-Effect) | [Live Demo](https://karthickraja.me/50Projects50Days/Day-20-Button-Ripple-Effect/) |
 | 21  | [Drag and Drop](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-21-Drag-and-Drop)               | [Live Demo](https://karthickraja.me/50Projects50Days/Day-21-Drag-and-Drop/)        |
+| 22  | [Drawing App](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-22-Drawing-App)                   | [Live Demo](https://karthickraja.me/50Projects50Days/Day-22-Drawing-App/)          |
+| 23  | [Loading Animation](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-23-Loading-Animation)       | [Live Demo](https://karthickraja.me/50Projects50Days/Day-23-Loading-Animation/)    |
