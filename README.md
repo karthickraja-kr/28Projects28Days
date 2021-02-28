@@ -30,4 +30,4 @@ This is the repository for all of my 50 Projects.
 | 22  | [Drawing App](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-22-Drawing-App)                   | [Live Demo](https://karthickraja.me/50Projects50Days/Day-22-Drawing-App/)          |
 | 23  | [Loading Animation](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-23-Loading-Animation)       | [Live Demo](https://karthickraja.me/50Projects50Days/Day-23-Loading-Animation/)    |
 | 24  | [Content Placeholder](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-24-Content-Placeholder)   | [Live Demo](https://karthickraja.me/50Projects50Days/Day-24-Content-Placeholder/)  |
-| 24  | [NavBar](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-25-NavBar)                             | [Live Demo](https://karthickraja.me/50Projects50Days/Day-25-NavBar/)               |
+| 25  | [NavBar](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-25-NavBar)                             | [Live Demo](https://karthickraja.me/50Projects50Days/Day-25-NavBar/)               |
