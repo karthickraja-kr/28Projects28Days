@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #222;
+  padding-bottom: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  background-color: #d31a50;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease;
+}
+
+nav.active {
+  background-color: #fff;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  transition: all 0.3s ease;
+}
+
+nav.active .container {
+  padding: 10px 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav.active a {
+  color: #333;
+}
+
+nav li a:hover,
+nav li.active a {
+  color: #120e43;
+}
+
+nav.active li a:hover,
+nav.active li.active a {
+  color: #d31a50;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(45deg, #ff9f4a, #ff3c83);
+  font-weight: bold;
+}
+
+h3 {
+  padding: 10px 0;
+}
+
+p {
+  padding: 5px 0;
+  letter-spacing: 1.2px;
+}
