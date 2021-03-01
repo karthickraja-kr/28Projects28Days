@@ -32,3 +32,4 @@ This is the repository for all of my 50 Projects.
 | 24  | [Content Placeholder](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-24-Content-Placeholder)   | [Live Demo](https://karthickraja.me/50Projects50Days/Day-24-Content-Placeholder/)  |
 | 25  | [NavBar](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-25-NavBar)                             | [Live Demo](https://karthickraja.me/50Projects50Days/Day-25-NavBar/)               |
 | 26  | [Vertical Slider](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-26-Vertical-Slider)           | [Live Demo](https://karthickraja.me/50Projects50Days/Day-26-Vertical-Slider/)      |
+| 27  | [Toast Notification](https://github.com/karthickraja-kr/50Projects50Days/tree/main/Day-27-Toast-Notification)     | [Live Demo](https://karthickraja.me/50Projects50Days/Day-27-Toast-Notification/)   |
